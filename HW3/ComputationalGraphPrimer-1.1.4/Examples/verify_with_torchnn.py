@@ -57,7 +57,7 @@ cgp.parse_expressions()
 
 training_data = cgp.gen_training_data()
 
-#cgp.run_training_with_torchnn('one_neuron', training_data)             ## (A)   REMEMBER to also change learning_rate above
+cgp.run_training_with_torchnn('one_neuron', training_data)             ## (A)   REMEMBER to also change learning_rate above
 
-cgp.run_training_with_torchnn('multi_neuron', training_data)            ## (B)   REMEMBER to also change learning_rate above
+# cgp.run_training_with_torchnn('multi_neuron', training_data)            ## (B)   REMEMBER to also change learning_rate above
 
